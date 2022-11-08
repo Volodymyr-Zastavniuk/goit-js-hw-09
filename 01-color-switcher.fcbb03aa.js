@@ -1,0 +1,2 @@
+!function(){var t={startBtn:document.querySelector("[data-start]"),stopBtn:document.querySelector("[data-stop]")},n=null;function e(){t.startBtn.toggleAttribute("disabled"),t.stopBtn.toggleAttribute("disabled")}t.startBtn.addEventListener("click",(function(){e(),n=setInterval((function(){var t;t="#".concat(Math.floor(16777215*Math.random()).toString(16)),document.body.style.backgroundColor=t}),1e3)})),t.stopBtn.addEventListener("click",(function(){e(),clearInterval(n)}))}();
+//# sourceMappingURL=01-color-switcher.fcbb03aa.js.map
